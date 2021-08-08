@@ -1,0 +1,7 @@
+kubeadm tokens list
+kubeadm token create --print-join-command
+kubeadm tokens list
+sudo kubeadm join x.x.x.x:6443 --token mks5kz.ihimb9sfil6fww4r --discovery-token-ca-cert-hash sha256:41977973ddbcc0fd6b1929077ba0ad2f220ef752ca39c9eb97cb95914872d2e8 
+kubectl get nodes
+kubectl get nodes worker3
+
